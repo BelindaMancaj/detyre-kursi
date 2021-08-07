@@ -1,0 +1,29 @@
+
+#permban{
+    widows: 500px;
+    margin-left: 400px;
+    margin-right: 400px; 
+}
+
+.link{
+    display: block;
+    padding: 5px 10px 10px 10px;
+    border: 1px solid #00203FFF;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    text-decoration: none;
+}
+.link:hover{
+    opacity: 0.5;
+}
+ a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  h3{
+      margin-left: 20px;
+  }

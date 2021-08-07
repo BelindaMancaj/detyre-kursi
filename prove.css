@@ -1,0 +1,191 @@
+body {
+    background-image: url();
+    background-position:top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    }
+    .header {
+        height:15%;
+        display:flex;
+        align-items:center;
+        position:relative;
+        overflow: hidden;
+      }
+    ul {
+      text-align:center;
+      flex:1;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      color: #fff;
+      text-align: center;
+      padding: 6px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left:20px;
+      font-size:20px;
+    }
+    li a:hover {
+      background-color: rgb(186, 186, 238);
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:#0b0c0b62;
+      
+        box-shadow: 5px 300px 400px 5px rgb(0, 0, 0, 0.315);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display:block;
+        text-align: center;
+      }
+      .dropdown-content a:hover {background-color:#02080375(227, 236, 235);}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .btn{
+          cursor:pointer;
+          color:rgb(6, 96, 102);
+          font-size:18px;
+          letter-spacing:2px;
+          padding:10px 30px;
+          border:2px solid #003333;
+          background:transparent;
+          text-decoration:none;
+          text-align:center;
+          font-weight:bold;
+          margin:40px 8px;
+      }
+      .btn a:hover{
+          color:#000;
+          background-color:#fff;
+      }
+      .btn a:visited{
+          background-color: #fff;
+          color: #1d0d66;
+      }
+
+
+      
+      
+      
+      
+      
+      body {
+        background-image: url();
+        background-position:top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    ul{
+        margin:0px;
+        padding:0px;
+        list-style:none;
+    }
+    ul li{
+        float: left;
+        width:250px;
+        height:50px;
+        background-color:black;
+        opacity:.8;
+        line-height: 50px;
+        text-align: left;
+        font-size: 18px;
+        word-spacing:2px;
+    }
+    ul li a{
+        text-decoration: none;
+        color:#fff;
+        display:block;
+    }
+    ul li a:hover{
+        background-color: rgb(103, 130, 138);
+    }
+    ul li ul li{
+        display:none;
+    }
+    ul li:hover ul li{
+        display:block;
+    }
+
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> FAKULTETI I TEKNOLOGJISË SË INFORMACIONIT </title>
+<link rel="stylesheet" type="text/css" href="nav.css">
+</head>
+<body>
+<ul>
+  <li>
+    <a href="#" class = "dr">FAKULTETI</a>
+    <ul>
+      <li><a href="Dekani.php">Dekani dhe Zv.Dekani</a></li> 
+      <li><a href="Organet drejtuese.php">Organet drejtuese</a></li> 
+      <li> <a href="Administrata.php">Administrata</a>
+      <li> <a href="Departamentet.php">Departamentet</a>
+      <li> <a href="Misioni i FTI.php">Misioni i FTI</a>
+</ul></li>
+  <li>
+    <a href="#">KURSET E STUDIMIT</a>
+    <ul>
+  <li> <a href="Bachelor.php">Bachelor</a></li>
+  <li> <a href="Master shkencor.php">Master shkencor</a></li>
+  <li> <a href="Doktor i shkencave.php">Doktor i shkencave</a></li>
+  <li> <a href="Struktura mesimore.php">Struktura mësimore</a></li>
+  <li> <a href="Rregullore e fakultetit.php">Rregullore e fakultetit</a></li>
+</ul></li>
+  <li>
+    <a href="#">STUDENTËT</a>
+    <ul>
+  <li> <a href="Njoftime administrative.php">Njoftime administative</a></li>
+  <li> <a href="Bursat e studimit.php">Bursat e studimit</a></li>
+  <li> <a href="Pranimet ne ciklet e studimeve.php">Pranimi në ciklet e studimit</a></li>
+  <li>  <a href="Rregullore.php">Rregullore</a>
+</ul></li>
+  <li>
+    <a href="#">KËRKIMI SHKENCOR</a>
+  <ul>
+  <li> <a href="Fushat e kerkimit.php">Fushat e kërkimit</a></li>
+  <li> <a href="Biblioteka.php">Bibliotekat</a></li>
+  <li> <a href="Projektet.php">Projektet </a></li>
+  <li> <a href="Laboratoret.php">Laboratorët</a></li>
+  </li>
+</ul><li>
+  <a href="#">SHKOLLA E DOKTORATËS</a>
+  <ul>
+  <li> <a href="Programi i studimit TIK.php">Programi i studimit TIK</a></li>
+  <li> <a href="Pranimet ne TIK.php">Pranimet në TIK</a></li>
+  <li> <a href="Rregullore e shkolles se doktorates.php">Rregullore e shkollës së doktoratës</a></li>
+  <li> <a href="Bashkepunime me universitete te tjera.php">Bashkëpunimet me universitetet e tjera </a></li>
+  <li> <a href="Rregullat.php">Rregullat</a></li>
+  <li> <a href="Punime doktorale.php">Punime doktorale</a></li>
+</ul></li>
+  <li>
+ <a href="#">SHËRBIMI I KARIERËS</a>
+ <ul>
+  <li>  <a href="Praktika.php">Praktika</a></li>
+  <li> <a href="Tregu i punes.php">Tregu i punës</a></li>
+  <li> <a href="Pergjigje te pyetjeve.php">Përgjigje të pyetjeve</a></li>
+  <li> <a href="Te tjera.php">Të tjera</a></li>
+</ul></li>
+</ul>
+</body>
+</html>
